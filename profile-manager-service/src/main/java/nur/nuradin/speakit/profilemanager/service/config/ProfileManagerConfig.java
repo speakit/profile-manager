@@ -1,7 +1,7 @@
 package nur.nuradin.speakit.profilemanager.service.config;
 
 import nur.nuradin.speakit.profilemanager.service.client.UserClient;
-import nur.nuradin.speakit.profilemanager.service.service.RegistrationService;
+import nur.nuradin.speakit.profilemanager.service.RegistrationService;
 import nur.nuradin.speakit.profilemanager.service.validation.RegistrationRequestValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

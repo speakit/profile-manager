@@ -1,4 +1,4 @@
-package nur.nuradin.speakit.profilemanager.service.service;
+package nur.nuradin.speakit.profilemanager.service;
 
 import static java.util.UUID.randomUUID;
 

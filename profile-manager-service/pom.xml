@@ -3,9 +3,13 @@
   xmlns="http://maven.apache.org/POM/4.0.0"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-  <groupId>nur.nuradin.speakit</groupId>
+  <parent>
+    <groupId>nur.nuradin.speakit</groupId>
+    <artifactId>profile-manager</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
   <artifactId>profile-manager-service</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <modelVersion>4.0.0</modelVersion>
 
   <build>
@@ -13,6 +17,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.7.0</version>
         <configuration>
           <source>9</source>
           <target>9</target>
@@ -38,6 +43,11 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-jpa</artifactId>
+      <version>2.0.0.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-security</artifactId>
       <version>2.0.0.RELEASE</version>
     </dependency>
     <dependency>

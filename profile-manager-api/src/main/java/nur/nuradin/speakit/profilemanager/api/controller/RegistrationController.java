@@ -7,7 +7,7 @@ import lombok.val;
 import nur.nuradin.speakit.profilemanager.domain.RegistrationRequest;
 import nur.nuradin.speakit.profilemanager.domain.User;
 import nur.nuradin.speakit.profilemanager.service.exception.AbstractUserValidationException;
-import nur.nuradin.speakit.profilemanager.service.service.RegistrationService;
+import nur.nuradin.speakit.profilemanager.service.RegistrationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
